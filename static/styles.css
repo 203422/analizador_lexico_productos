@@ -1,0 +1,91 @@
+:root {
+    --font: "Poppins", sans-serif;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 10rem;
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: var(--font);
+}
+
+.container {
+    max-width: 80rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.container_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.input_text {
+    padding: 1rem 2rem;
+}
+
+.button {
+    background-color: #c3c3c3;
+    border: none;
+    padding: 1rem 2rem;
+    font-family: var(--font);
+    font-weight: 500;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e9e9e9;
+}
+
+td {
+    color: #333;
+}
